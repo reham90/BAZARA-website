@@ -585,6 +585,8 @@ html[dir="ltr"] .big-menu{
 	}
 	.filter-logo{
 		filter: brightness(0) invert(1);
+		width: 140px;
+		transition: 0.5s;
 	}
 
 	.nav-header {
@@ -646,10 +648,10 @@ html[dir="ltr"] .big-menu{
 
 	.big-menu li:first-child {
 		margin-inline-end: 0;
-		margin-bottom: 17px;
+		
 	}
 
-	.big-menu li:not(:first-child) {
+	.big-menu li:not(:last-child) {
 		margin: 0;
 		margin-bottom: 38px;
 	}
@@ -896,7 +898,7 @@ height: 100vh;
 
 .about-imgg{
 	width: 555px;
-	transform: skew(0,-1deg);
+	/* transform: skew(0,-2deg); */
 }
 .about-imgg img{
 	width: 100%;
@@ -1323,11 +1325,11 @@ padding: 0 30px 47px;
 }
 
 .vedio-slider .swiper-pagination .swiper-pagination-bullet:hover {
-	background-color: var(--main-hover);
+	background-color: var(--main-color);
 }
 
 .vedio-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-	background-color: var(--main-hover);
+	background-color: var(--main-color);
 	opacity: 1;
 }
 
@@ -1740,13 +1742,13 @@ color: var(--main-color);
 	.language-dropdown{
 		position: absolute;
 		inset-inline-start: 215px;
-        top: 35px;
+        top: 30px;
     visibility: hidden;
     opacity: 0;
 	
 	}
 	.fixed-nav 	.language-dropdown{
-		top: 28px;
+		top: 22px;
 	}
 	.visible{
 		opacity: 1;
