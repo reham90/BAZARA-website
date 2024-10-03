@@ -1726,7 +1726,7 @@ color: var(--main-color);
 }
 .about-imgg {
 	width: 100%;
-	height: 240px;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
